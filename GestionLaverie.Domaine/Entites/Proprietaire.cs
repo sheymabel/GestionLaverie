@@ -18,9 +18,12 @@ namespace GestionLaverie.Domaine.Entities
             Id = id;
             NomProprietaire = nomProprietaire;
         }
+
+        public Proprietaire(int id, string nomProprietaire, string v1, string v2, string v3, string v4) : this(id, nomProprietaire)
+        {
+        }
+
         public List<Laverie> Laveries { get; set; } = new List<Laverie>();
-
-
-
+        public string? Prenom { get; set; }
     }
 }

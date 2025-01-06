@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GestionLaverie.Domaine\GestionLaverie.Domaine.csproj" />
+  </ItemGroup>
+
 </Project>
